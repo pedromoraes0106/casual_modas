@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body
+{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#faixa
+{
+    height: 30px;
+    width: 100%;
+    background-color: #FFCFBF;
+}
+
+#container
+{
+    margin: 0px;
+    height: 250px;
+    width: 100%;
+}
+
+    #container_topo1
+    {
+        margin: 0px;
+        height: 200px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+        #item_1
+        {
+            margin-top: 30px;
+            flex-direction: row;
+            height: 100%;
+            width: 35%;
+        }
+
+        #item_2
+        {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;            
+
+            flex-direction: row;
+            height: 100px;
+            width: 50%;
+        }
+
+            #barra_busca
+            {
+                border: 2px solid black;
+                border-radius: 0px;
+
+                padding: 20px;
+                height: 25px;
+                width: 600px;
+                margin: 10px;
+                
+                font-size: 19px;
+                font-weight: bold;
+                color: black;
+            }
+
+            #botao_busca
+            {
+                border: 2px solid black;
+
+                width: 45px;
+                height: 40px;
+            }
+
+                #botao_busca button
+                {
+                    background-color: white;
+                    width: 100%;
+                    height: 100%;
+                    cursor: pointer;
+                    border: none;
+                }
+
+    #container_topo2
+    {
+        display: flex;
+        height: 50px;
+
+        color: red;
+        font-weight: bold;
+        align-items: center;
+    }
+
+        #item_3
+        {         
+            margin-left: 770px;
+            flex-direction: row;
+            height: 30px;
+            width: 250px;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        #item_4
+        {
+            margin-left: 20px;
+            margin-bottom: 5px;
+            left: 0;
+            flex-direction: row;
+            height: 100%;
+            width: 240px;
+
+            display: flex;
+            align-items: center;
+        }
+
+            .img_01
+            { 
+                width: 50px;
+                height: 50px;
+            }
+
+            .whats
+            {
+                font-size: 25px;
+                margin: 5px;
+                color: black;
+            }
+
+        #item_5
+        {
+            margin-left: 25px;
+            margin-bottom: 5px;
+            left: 0;
+            flex-direction: row;
+            height: 100%;
+            width: 240px;
+
+            display: flex;
+            align-items: center;
+        }
+
+            .img_02
+            { 
+                width: 40px;
+                height: 40px;
+            }
+
+            .insta
+            {
+                font-size: 25px;
+                margin: 5px;
+                color: black;
+            }
+
+#header
+{
+    display: flex;
+    background-color: #FFCFBF;
+    height: 90px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#paginas
+{
+    height: 50px;
+    background-color: white;
+}
+    #paginas ul
+    {
+        list-style-type: none;
+        width: 1490px;
+        height: 30px;
+    }
+
+        #paginas ul li
+        {
+            float: left;
+            margin-left: 5px;
+        }
+
+                #paginas ul li a:not(.ativo)
+                {
+                    font-weight: bold;
+                    font-size: 17px;
+                    color: rgba(8, 8, 8, 0.486);
+                    transition: 0.5s;
+                    margin-left: 25px;
+                }
+
+                    #paginas a:hover:not(.ativo)
+                    {
+                        background-color: #f5bdaa;
+                        color: black;
+                        text-decoration: 2px underline black;
+                        transition: 0.5s;
+                    }
+
+                        .ativo
+                        {
+                            text-decoration: 3px underline black;
+                            color: black;
+                            padding: 2px;
+                            background-color: #f5bdaa;
+                            font-weight: bold;
+                            font-size: 17px;
+                            color: black;
+                            transition: 0.5s;
+                            margin-left: 25px;
+                        }
+
+/*Corpo principal*/
+#fundo_site
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#legenda
+{
+    color: black;
+    font-size: 29px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+    span
+    {
+        color: red;
+    }
+
+#text_article
+{
+    margin: 5px;
+    margin-left: 30px;
+    font-size: 40px;
+    color: black;
+    text-shadow: #f5bdaa 3px 2px;
+}
+
+    #text_article a
+    {
+        color: black;
+    }
+
+.cont_1
+{
+    margin: 50px 0px 50px 0px;
+}
+
+
+.container_masc
+{
+    margin: auto;
+    width: 95%;
+    height: max-content;
+    padding: 10px;
+
+    display: block;
+
+    background-color: white;
+}
+
+.linha
+{
+    margin: auto;
+    padding: 50px;
+    height: max-content;
+    width: 90%;
+    margin-top: 10px;
+    display: block;
+}
+.oferta
+{
+    border: none;
+    height: 200px;
+}
+
+    .oferta img
+    {
+        margin: 0px 0px 0px 440px;
+        width: 40%;
+        height: 100%;
+    } 
+
+        .item_a
+        {
+            height: 20%;
+        }
+
+        .item_b
+        {
+            height: max-content;
+            width: 100%;
+            display: flex;
+            border: 5px solid #f5bdaa;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap; 
+            padding: 20px;
+        }
+
+            .itens_roupas
+            {
+                width: max-content;
+                height: max-content;
+                margin: 5px;
+            }
+
+                .itens_roupas img
+                {
+                    border: 2px solid black;
+                    width: 300px;
+                    height: 300px;   
+                }
+
+            .itens_roupas_a
+            {
+                width: max-content;
+                height: max-content;
+                margin: 5px;
+            }
+
+                .itens_roupas_a img
+                {
+                    border: 2px solid black;
+                    width: 300px;
+                    height: 400px;  
+                }
+
+
+
+    .titulos
+    {
+        font-size: 50px;
+        margin: 10px;
+        text-shadow: #f5bdaa 3px 2px;
+        
+    }
+
+/*Rodapé*/
+#rodape
+{
+    display: block;
+}
+            
+
+#quadro_1
+{
+    display: block;
+}
+
+    #home
+    {   
+        width: 100%;
+        height: 80px;
+        margin: 5px;
+    }
+ 
+
+    #roupas_masc
+    {
+        margin-top: 80px;
+        margin: center;
+        height: 80px;
+        width: 700px;
+    }
+
+    #roupas_femi
+    {
+        margin-top: 170px;
+        margin-right: 10px;
+        width: 100%;
+        height: 80px;
+    }
+
+    #jao 
+    {
+        width: 100%;
+        line-height: 50px;
+        text-align: center;
+    }
+
+        #jao a:not(.ativo)
+        {  
+            font-weight: bold;
+            font-size: 19px;
+            color: rgba(8, 8, 8, 0.486);
+        }
+            #jao a:hover:not(.ativo)
+            {
+                background-color: #f5bdaa;
+                color: black;   
+                text-decoration: 2px underline black;
+                transition: 0.5s;
+            }
+
+
+#footer_1
+{
+    background-color: #FFCFBF;
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 300px;
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+    #quadro_1
+    {
+        background-color: white;
+        margin: auto;
+        display: flex;
+        
+        width: 40%;
+        height: 80%;
+    }
+
+    #quadro_2
+    {
+        background-color: white;
+        margin: auto;
+        display: block;
+        
+        width: 40%;
+        height: 80%;
+    }
+
+        .quadrado
+        {
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+
+            .item_6
+            {
+                height: 100%;
+                width: 240px;
+
+                display: flex;
+                align-items: center;
+                font-weight: bold;
+            }
+
+            .item_7
+            {
+                height: 100%;
+                width: 240px;
+
+                display: flex;
+                align-items: center;
+                font-weight: bold;
+            }
+
+#footer_2
+{
+    background-color: black;
+    border: 1px solid black;
+}
+
+    #footer_2 p
+    {
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }

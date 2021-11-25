@@ -1,0 +1,213 @@
+<html>
+    <head>
+        <title>Casual Modas</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/carrossel.css">
+        <link rel="icon" href="img/favicon.icon">
+
+        <script src="js/carrossel.js" defer></script>
+</head>
+
+    <body>
+        <div id="faixa"></div>
+
+        <div id="container">
+            <div id="container_topo1">
+                <div id="item_1">
+                    <img src="img/logo/logo.jpg">
+                </div>
+
+                <div id="item_2">
+                     <input type="text" id="barra_busca" placeholder="O que você está procurando?">
+                    
+                    <div  id="botao_busca">
+                        <button>
+                            <img src="img/botao_busca.png">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container_topo2">
+               <div id="item_3">Faça seus pedidos por:</div>
+
+               <div id="item_4">
+                   <div class="img_01">
+                    <a href="#"><img src="img/whatsapp.png">
+                   </div>
+
+                   <a href="#"><div class="whats">(99) 99999-9999</div></a>
+               </div>
+
+               <div id="item_5">
+                <div class="img_02">
+                    <a href="#"><img src="img/instagram.jpg"></a>
+                </div>
+
+                <a href="#"><div class="insta">casual_modas</div></a>   
+            </div>
+            </div>
+        </div>
+
+        <header>
+            <div id="header">
+                <div id="paginas">
+                    <ul>
+                        <li><a class="ativo" href="index.html">HOME</a></li>
+                        <li><a href="roupas_masc.html">ROUPAS MASCULINAS</a></li>
+                        <li><a href="roupas_femi.html">ROUPAS FEMININAS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div id="fundo_site">
+            <div id="legenda">
+                <p>*Comprando mais de <span>3 itens</span>, <span>ganha 20%</span> de desconto em cada peça*</p>
+                <p>Cliente, quando for realizar o pedido, por favor, informe o número e a categoria que deseja.</p> <p><span>Ex:</span> camiseta Nº 1, shorts Nº 3, bermuda Nº 5, camiseta Nº 4 etc.</p>
+            </div>
+
+            <div class="carrossel">
+
+                <div class="fade">
+                    <div class="n_text">1/3</div>
+                    <img src="img/carrossel_1.jpg">
+                </div>
+
+                <div class="fade">
+                    <div class="n_text">2/3</div>
+                    <img src="img/carrossel_2.jpg">
+                </div>
+
+                <div class="fade">
+                    <div class="n_text">3/3</div>
+                    <img src="img/carrossel_3.jpg">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            </div>
+
+            <div class="dot_box">
+                <span class="dot" onclick="currentSlides(1)"></span>
+                <span class="dot" onclick="currentSlides(2)"></span>
+                <span class="dot" onclick="currentSlides(3)"></span>
+            </div>
+
+            <div class="cont_1">
+                <div class="text_article">
+                    <a href="roupas_masc.html">Roupas Masculinas</a>
+                </div>
+
+                <div class="container_roupas">
+
+                    <div class="roupas_masc">
+                        <div class="roupa_1"><img src="img/masc_1.jpg"></div>
+                        <div class="roupa_2"><img src="img/masc_2.jpg"></div>
+                    </div>
+
+                        <div class="roupas_masc">
+                            <div class="oferta"><img src="img/oferta.png"></div>
+                            <div class="roupa_3"><img src="img/masc_3.jpg"></div>
+                        </div>
+
+                    <div class="roupas_masc">
+                        <div class="roupa_4"><img src="img/masc_4.jpg"></div>
+                        <div class="roupa_5"><img src="img/masc_5.jpg"></div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="cont_1">
+                <div class="text_article">
+                    <a href="roupas_femi.html">Roupas Femininas</a>
+                </div>
+
+                <div class="container_roupas">
+
+                    <div class="roupas_masc">
+                        <div class="roupa_1"><img src="img/femi_1.jpg"></div>
+                        <div class="roupa_2"><img src="img/femi_2.jpg"></div>
+                    </div>
+
+                        <div class="roupas_masc">
+                            <div class="oferta"><img src="img/oferta.png"></div>
+                            <div class="roupa_3"><img src="img/femi_3.jpg"></div>
+                        </div>
+
+                    <div class="roupas_masc">
+                        <div class="roupa_4"><img src="img/femi_4.jpg"></div>
+                        <div class="roupa_5"><img src="img/femi_5.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="rodape">
+            <div id="footer_1">
+                <div id="quadro_1">
+                    <div id="home">
+                        <div id="jao"><a class="ativo" href="index.html">HOME</a></div>
+                    </div>
+
+                    <div id="roupas_masc">
+                        <div id="jao"><a href="roupas_masc.html">ROUPAS MASCULINAS</a></div>
+                    </div>
+
+                    <div id="roupas_femi">
+                        <div id="jao"><a href="roupas_femi.html">ROUPAS FEMININAS</a></div>
+                    </div>
+                </div>
+
+                <div id="quadro_2">
+                <div class="quadrado">
+                    <div class="item_6">
+                        <div class="img_01">
+                            <a href="#"><img src="img/whatsapp.png"></a>
+                        </div>
+     
+                        <a href="#"><div class="whats">(99) 99999-9999</div></a> 
+                    </div>
+     
+                    <div class="item_7">
+                        <div class="img_02">
+                            <a href="#"><img src="img/instagram.jpg"></a>
+                        </div>
+
+                        <a href="#"><div class="insta">casual_modas</div></a>
+                    </div>
+                </div>
+            
+
+                <div class="quadrado">
+                    <div class="item_6">
+                        <div class="img_01">
+                            <a href="#"><img src="img/twiter.png"></a>
+                        </div>
+     
+                        <a href="#"><div class="whats">(99) 99999-9999</div></a>   
+                    </div>
+     
+                    <div class="item_7">
+                        <div class="img_02">
+                            <a href="#"><img src="img/facebook.png"></a>
+                        </div>
+
+                        <a href="#"><div class="insta">casual_modas</div></a> 
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div id="footer_2">
+                <p>Desenvolvido por Pedro de Carvalho Moraes - 2021</p>
+            </div>     
+        </div>
+        
+    </body>
+</html>
