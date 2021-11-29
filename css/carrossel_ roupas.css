@@ -4,7 +4,8 @@
     width: 600px;
     position: relative;
     margin: auto;
-    border: 5px solid black;
+    margin-top: 50px;
+    border: 5px solid red;
 }
 
 img
@@ -22,7 +23,7 @@ img
     padding: 16px;
     margin-top: -22px;
     color: white;
-    background-color: black;
+    background-color: red;
     font-size: 28px;
     font-weight: bold;
     transition: 0.5s;
@@ -43,7 +44,7 @@ img
 .n_text
 {
     color: white;
-    background-color: black;
+    background-color: red;
     font-size: 20px;
     padding: 8px 12px;
     position: absolute;
@@ -71,7 +72,7 @@ img
 
 .active, .dot:hover
 {
-    background-color: black;
+    background-color: red;
     transition: 0.5s;
 }
 

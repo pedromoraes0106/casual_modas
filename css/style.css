@@ -21,7 +21,7 @@ a
 #container
 {
     margin: 0px;
-    height: 250px;
+    height: 270px;
     width: 100%;
 }
 
@@ -33,6 +33,7 @@ a
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        margin-bottom: 20px;
     }
 
         #item_1
@@ -43,7 +44,7 @@ a
             width: 35%;
         }
 
-        #item_2
+        /*#item_2
         {
             display: flex;
             align-items: center;
@@ -54,7 +55,7 @@ a
             width: 50%;
         }
 
-            #barra_busca
+             #barra_busca 
             {
                 border: 2px solid black;
                 border-radius: 0px;
@@ -84,7 +85,7 @@ a
                     height: 100%;
                     cursor: pointer;
                     border: none;
-                }
+                }*/
 
     #container_topo2
     {
@@ -98,7 +99,7 @@ a
 
         #item_3
         {         
-            margin-left: 770px;
+            margin-left: 5px;
             flex-direction: row;
             height: 30px;
             width: 250px;
@@ -304,7 +305,7 @@ a
                 height: 100%;
             }
 
-        .oferta
+        .ofertas
         {
             margin-top: 30px;
             margin-left: 30px;
@@ -313,7 +314,7 @@ a
             height: 150px;
         }
 
-            .oferta img
+            .ofertas img
             {
                 width: 100%;
                 height: 100%;
@@ -369,37 +370,34 @@ a
 #quadro_1
 {
     display: block;
+    text-align: center;
 }
 
     #home
     {   
         width: 100%;
         height: 80px;
-        margin: 5px;
     }
  
 
     #roupas_masc
     {
         margin-top: 80px;
-        margin: center;
         height: 80px;
-        width: 700px;
+        width: 100%;
     }
 
     #roupas_femi
     {
         margin-top: 170px;
-        margin-right: 10px;
+        margin-left: 10px;
         width: 100%;
         height: 80px;
     }
 
     #jao 
     {
-        width: 100%;
         line-height: 50px;
-        text-align: center;
     }
 
         #jao a:not(.ativo)
@@ -493,3 +491,677 @@ a
         font-weight: bold;
         color: white;
     }
+
+@media screen and (max-width: 1440px)
+{
+
+        #item_1
+        {
+            width: 40%;
+        }
+
+        #item_3
+        {
+            height: 40px;
+            width: 250px;
+            font-size: 25px;
+        }
+
+        #item_4
+        {
+            width: 220px;
+            margin-right: 0px;
+        }
+
+        #item_5
+        {
+            width: 200px;
+        }
+
+        .img_01
+        {
+            width: 45px;
+            height: 45px;
+        } 
+
+        .img_02
+        {
+            width: 35px;
+            height: 35px;            
+        }  
+        
+
+        .whats
+        {
+            font-size: 25px;
+        }
+
+        .insta
+        {
+            font-size: 25px;
+        }
+
+    /*corpo do site*/
+    .text_article
+    {
+        margin-left: 110px;
+    }
+
+    .container_roupas
+    {
+        width: 85%;
+        height: 715px;
+    }
+
+    .roupas_masc
+    {
+        margin: 20px;
+        width: 25%;
+        height: 675px;
+    }
+
+        .roupa_1, .roupa_2,.roupa_4, .roupa_5
+        {           
+            margin: auto;
+            width: 300px;
+            height: 330px;
+        }
+
+        .roupa_2, .roupa_5
+        {
+            margin-top: 10px;
+        }
+
+        .roupa_3
+        {
+            margin: auto;
+            margin-top: 40px;
+            width: 300px;
+            height: 370px;
+            border: 2px solid red;
+        }
+    }
+
+@media screen and (max-width: 1024px)  
+{  
+    #paginas ul
+    {
+        width: 1024px;
+    }
+
+    #item_1
+    {
+        width: 40%;
+    }
+
+    #item_3
+        {
+            font-size: 23px;
+        }
+
+        #item_4
+        {
+            width: 200px;
+        }
+
+        #item_5
+        {
+            width: 170px;
+        }
+
+        .img_01
+        {
+            width: 35px;
+            height: 35px;
+        } 
+
+        .img_02
+        {
+            width: 30px;
+            height: 30px;            
+        }  
+        
+        .whats
+        {
+            font-size: 23px;
+        }
+
+        .insta
+        {
+            font-size: 23px;
+        }
+
+/*corpo do site*/
+.text_article
+{
+    margin-left: 90px;
+}
+
+    .container_roupas
+    {
+        width: 90%;
+        height: 620px;
+    }
+
+    .roupas_masc
+    {
+        margin: 20px;
+        width: 35%;
+        height: 580px;
+    }
+
+        .roupa_1, .roupa_2,.roupa_4, .roupa_5
+        {           
+            margin: auto;
+            width: 250px;
+            height: 280px;
+        }
+
+        .ofertas
+        {
+            width: 200px;
+            height: 100px;
+        }
+
+        .roupa_2, .roupa_5
+        {
+            margin-top: 10px;
+        }
+
+        .roupa_3
+        {
+            margin: auto;
+            margin-top: 40px;
+            width: 250px;
+            height: 320px;
+            border: 2px solid red;
+        }
+    
+
+
+/*rodapé*/
+#jao a:not(.ativo)
+{
+    font-size: 15px;
+}
+
+    #roupas_masc #jao a
+    {
+        margin-left: 0px;
+        font-size: 13px;
+    }
+
+    #roupas_femi #jao a
+    {
+        margin-left: 0px;
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 800px)
+{
+    #legenda
+    {
+        font-size: 19px;
+    }
+
+    #paginas ul
+    {
+        width: 800px;
+    }
+
+    #item_1
+    {
+        width: 60%;
+    }
+
+/*corpo do site */
+.text_article 
+{
+    font-size: 35px;
+    margin-left: 15px;
+}
+
+    .container_roupas
+    {
+        width: 95%;
+        height: 515px;
+    }
+
+    .roupas_masc
+    {
+        margin: 20px;
+        width: 30%;
+        height: 580px;
+    }
+
+        .roupa_1, .roupa_2,.roupa_4, .roupa_5
+        {           
+            margin: auto;
+            width: 200px;
+            height: 230px;
+        }
+
+        .ofertas
+        {
+            margin-left: 20px;
+            width: 200px;
+            height: 80px;
+        }
+
+        .roupa_2, .roupa_5
+        {
+            margin-top: 10px;
+        }
+
+        .roupa_3
+        {
+            margin: auto;
+            margin-top: 40px;
+            width: 220px;
+            height: 280px;
+        }
+
+/*rodapé*/
+ #jao a:not(.ativo)
+{
+    font-size: 14px;
+}
+        
+    #roupas_masc
+    {
+        margin-top: 50px;
+    }
+
+    #roupas_femi
+    {
+        margin-top: 100px;
+    }
+
+    #roupas_masc #jao a
+    {
+        font-size: 11px;
+    }
+        
+    #roupas_femi #jao a
+    {
+        font-size: 11px;
+    }
+
+
+#footer_1
+{
+    height: 200px;
+}
+
+#quadro_1, #quadro_2
+{
+    width: 45%;
+    height: 70%;
+}
+
+    #roupas_masc #jao a
+    {
+        margin-left: 0px;
+        font-size: 12px;
+    }
+
+    #roupas_femi #jao a
+    {
+        margin-left: 0px;
+        font-size: 12px;
+    }
+
+    .whats
+        {
+            font-size: 17px;
+        }
+
+    .insta
+    {
+        font-size: 17px;
+    }
+
+    .img_01
+        {
+            width: 30px;
+            height: 30px;
+        } 
+
+    .img_02
+    {
+        width: 30px;
+        height: 30px;            
+    }  
+        
+}
+
+@media screen and (max-width: 500px)
+{
+    #paginas ul
+    {
+        width: 500px;
+    }
+
+    #item_1
+    {
+        width: 80%;
+    } 
+
+    #item_3
+    {
+        margin-top: 20px;
+        font-size: 17px;
+    }
+
+    #item_4
+    {
+        margin: 5px;
+        width: 200px;
+    }
+
+    #item_5
+    {
+        margin: 0px;
+        width: 180px;
+    }
+
+    .img_01
+    {
+        width: 30px;
+        height: 30px;
+    } 
+
+    .img_02
+    {
+        width: 25px;
+        height: 25px;            
+    }  
+    
+    .whats
+    {
+        font-size: 12px;
+    }
+
+    .insta
+    {
+        font-size: 12px;
+    }
+
+    /*rodapé*/
+    #footer_1
+    {
+        padding: 5px;
+        height: max-content;
+        display: block;
+    }
+
+    #quadro_1, #quadro_2
+    {
+        width: 80%;
+        height: 150px;
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .item_6, .item_7
+    {
+        margin-left: 10px;
+    }
+
+    #home 
+    {
+        margin-left: 0px;
+        width: max-content;
+        height: max-content;
+        font-size: 10px;
+        margin: auto;
+    }
+
+    #footer_2 p
+    {
+        font-size: 10px;
+    }
+
+    #roupas_masc 
+    {
+        width: max-content;
+        height: max-content;
+        margin-top: 0px;
+        margin: auto;
+        font-size: 10px;
+    }
+
+    #roupas_femi 
+    {
+        margin: auto;
+        margin-top: 0px;
+        font-size: 10px;
+        width: max-content;
+        height: max-content;
+    }
+
+
+
+    .text_article 
+{
+    font-size: 35px;
+    margin-left: 15px;
+}
+
+    .container_roupas
+    {
+        width: 95%;
+        height: 400px;
+    }
+
+    .roupas_masc
+    {
+        margin: 5px;
+        width: 30%;
+        height: max-content;
+    }
+
+        .roupa_1, .roupa_2,.roupa_4, .roupa_5
+        {       
+            margin-top: 10px;    
+            width: 110px;
+            height: 180px;
+        }
+
+        .ofertas
+        {
+            margin-left: 5px;
+            width: 110px;
+            height: 60px;
+        }
+
+        .roupa_2, .roupa_5
+        {
+            margin-top: 10px;
+        }
+
+        .roupa_3
+        {
+            margin-top: 40px;
+            width: 120px;
+            height: 180px;
+        }
+
+        #home #jao a
+        {
+            font-size: 12px;
+            margin: auto;
+        }
+}
+
+@media screen and (max-width: 400px)
+{
+
+    #paginas
+    {
+        height: 40px;
+    }
+
+    #paginas ul
+    {
+        width: 350px;
+        font-size: 10px;
+    }
+
+        #paginas ul li a
+        {
+            font-size: 13px;
+            margin: 3px;
+        }
+
+        #paginas ul li a:not(.ativo)
+        {
+            font-size: 13px;
+            margin: 10px;
+        }
+
+    #item_1
+    {
+        width: 100%;
+    } 
+
+    #item_3
+    {
+        margin-left: 0px;
+        margin-top: 25px;
+        font-size: 12px;
+        height: max-content;
+    }
+    
+    #item_4
+    {
+        margin-top: 25px;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 200px;
+        height: max-content;
+    }
+
+    #item_5
+    {
+        margin-top: 20px;
+        width: 200px;
+        height: max-content;
+    }
+
+
+    .img_01
+    {
+        width: 20px;
+        height: 20px;
+    } 
+
+    .img_02
+    {
+        width: 20px;
+        height: 20px;            
+    }  
+
+    .whats
+    {
+        font-size: 9px;
+    }
+
+    .insta
+    {
+        font-size: 10px;
+    }
+
+    #legenda
+    {
+        font-size: 15px;
+    }
+
+    /*corpo do site*/
+    .text_article 
+    {
+        font-size: 30px;
+        margin-left: 5px;
+    }
+
+    .container_roupas
+    {
+        width: 95%;
+        height: 300px;
+    }
+
+    .roupas_masc
+    {
+        margin: 3px;
+        width: 30%;
+        height: max-content;
+    }
+
+        .roupa_1, .roupa_2,.roupa_4, .roupa_5
+        {       
+            margin-top: 10px;    
+            width: 80px;
+            height: 130px;
+        }
+
+        .ofertas
+        {
+            margin-top: 10px;
+            margin-left: 2px;
+            width: 90px;
+            height: 60px;
+        }
+
+        .roupa_2, .roupa_5
+        {
+            margin-top: 5px;
+        }
+
+        .roupa_3
+        {
+            margin-top: 20px;
+            width: 100px;
+            height: 150px;
+        }
+
+    #rodape
+    {
+        margin-top: 10px;
+    }
+
+    #home #jao a
+    {
+        font-size: 12px;
+        margin: auto;
+    }
+
+    #roupas_masc #jao a
+    {
+        margin-left: 0px;
+        font-size: 12px;
+    }
+
+    #roupas_femi #jao a
+    {
+        margin-left: 0px;
+        font-size: 12px;
+    }
+
+    #paginas a:hover:not(.ativo)
+    {
+        text-decoration: 1px underline black;
+    }
+
+    .ativo
+    {
+        text-decoration: 2px underline black;
+    }
+    
+    #quadro_2
+    {
+        height: 60%;
+    }
+
+}
